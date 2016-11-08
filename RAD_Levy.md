@@ -1,10 +1,7 @@
 
-
-
-
-Austin Levy
-Spatial Smoothing
-GIS 441
+#Austin Levy
+##Spatial Smoothing - Pysal/QGIS
+##GIS 441
 
 
 1. Introduction
@@ -78,7 +75,7 @@ This toolkit will help to further the integration between the QGIS and Pysal lib
           * Python 2.7 will be used as QGIS does no support Python 3 yet.
           * Commented code that can easily be recreated
           * Users will only be able to select one method at a time
-
+          * New output layer of the results will be displayed.
 
 
 #### 3. Nonfunctional Requirements
@@ -104,10 +101,10 @@ Implementing this will be along the same lines as getting the processing pysal p
 
         6. Interface
 
-The GUI Interface will look very similar to all the other toolbox GUI’s for QGIS.
+The GUI Interface will look very similar to all the other toolbox GUI’s for QGIS with drop downs for the selected catagories.
 
         7. Packaging
-The packaging will the same as the processing pysal. Each form of smoothing will have its own file just like the morans as well as the pysal plugging needed to implement it.
+The packaging will the same as the processing pysal. Each form of smoothing will have its own file just like the morans as well as the pysal plug in and GUI needed to implement it.
 
 
         8. Licensing
@@ -128,8 +125,11 @@ Implementing the smoothing paackages.
 11/27 - 12/4
 The last 2 weeks will be spent polishing and compatibility.
 
+12/6
+Presentation
+
 
     2. Repositories
         1. URL for project repository
 
-https://github.com/ThatGuyRightThere/pysal/blob/master/pysal/esda/smoothing.py
+https://github.com/ThatGuyRightThere/processing_pysal/test/project
